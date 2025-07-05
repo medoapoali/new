@@ -64,7 +64,7 @@ btn.addEventListener("click", () => {
   let qtW = df < 3 ? 0 : (ndhrWst - (jwf + jwf)).toPrecision(4);
   let ndf = df - 1;
   let ndjhw = df < 3 ? 0 : jh + 2;
-  let ndrh = jh - 2;
+  let ndrh = jh + 2;
 
   //style
   divOut.style.display = "block";
@@ -88,7 +88,7 @@ btn.addEventListener("click", () => {
     },
     {
       Name: "ظهر طرف",
-      length: ndjhw,
+      length: ndrh,
       width: dhrTrfany.toPrecision(4),
       thickness: 0,
       quantity: 2,
