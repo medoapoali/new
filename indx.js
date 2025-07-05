@@ -88,7 +88,7 @@ btn.addEventListener("click", () => {
     },
     {
       Name: "ظهر طرف",
-      length: jh - 2,
+      length: ndjhw,
       width: dhrTrfany.toPrecision(4),
       thickness: 0,
       quantity: 2,
